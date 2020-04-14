@@ -1,0 +1,18 @@
+body {
+    background-image: url("../images/dc_black.png");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    background-color: rgba(127, 255, 0, 0.7);
+    width: 70%;
+    font-size: 40px;
+}
+
+td {
+    border: 1px solid navy;
+}

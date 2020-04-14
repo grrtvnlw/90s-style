@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/dc_white.png");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    color: magenta;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 12px;
+    font-size: 80px;
+}
+
+header {
+    width: 80%;
+    float: right;
+}
+
+p {
+    margin: 15px 0px;
+    font-size: 25px;
+}
+
+p + p {
+    padding-top: 80px;
+}
+
+p > span {
+    display: inline-block;
+    font-size: 80px;
+    padding: 60px 40px;
+}
+
+div {
+    display: inline-block;
+}
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.right {
+    width: 80%;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: magenta;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+li {
+    border: 1px solid magenta;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+li:nth-child(1) {
+    font-size: 40px;
+}
