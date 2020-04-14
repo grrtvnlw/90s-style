@@ -57,16 +57,19 @@ li {
 
 a {
     text-decoration: none;
-    color: magenta;
+    color: black;
 }
 
 a:hover {
-    color: chartreuse;
+    color: magenta;
 }
 
 li {
     border: 1px solid magenta;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url("../images/dc_green.png");
+    background-repeat: repeat;
+    color: black;
+    font-weight: 900;
 }
 
 li:nth-child(1) {

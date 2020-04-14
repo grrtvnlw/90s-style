@@ -2,7 +2,7 @@ body {
     background-image: url("../images/dc_black.png");
     background-repeat: repeat;
     font-family: sans-serif;
-    color: navy;
+    color: midnightblue;
     text-align: center;
 }
 
@@ -12,7 +12,11 @@ table {
     width: 70%;
     font-size: 40px;
 }
+th {
+    padding: 20px;
+    font-size: 60px;
+}
 
 td {
-    border: 1px solid navy;
+    border: 1px solid midnightblue;
 }
