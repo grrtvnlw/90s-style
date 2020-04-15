@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bash/CLI</title>
-    <link href="styles/keys-style.css" rel="stylesheet" type="text/css">
+    <link href="styles/bash-style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    
+    <header>
+        <h1>Bash/CLI</h1>
+    </header>
+    <main>
+        <h2>Tips and Tricks</h2>
+        <ul>
+            <li>Typing <kbd>cd</kbd> with no arguments will take you to your home directory.</li>
+            <li><kbd>.</kbd> is current directory, <kbd>..</kbd> is directory above current directory.</li>
+            <li>Typing <kbd>cd/</kbd> will take you to the root directory (your hard drive).</li>
+            <li>A <kbd>/</kbd> at the end of a filename means the file is a directory.</li>
+            <li>The <kbd>which</kbd> command will check arguments for executable files on your system.</li>
+            <li>The <kbd>ps</kbd> command stands for Process Status and will show you what is running in bash.</li>
+            <li>The <kbd>-t</kbd> argument, when used with <kbd>ls</kbd>, will sort files by modified time.</li>
+            <li>The <kbd>-alt</kbd> arguments, when used with <kbd>ls</kbd>, will display all files in long form, sorted by modified time.</li>
+            <li>The <kbd>uptime</kbd> command will tell you how long it's been since you last rebooted your system.</li>
+            <li>Use <kbd>rm -rf</kbd> to remove a directory but <b>BE CAREFUL</b>.</li>
+        </ul>
+        <h2>Notes</h2>
+            <p>Absolute paths always start with <kbd>/</kbd>, which refers to your computers hard drive.</p>
+            <p>Moving a file to the <kbd>/tmp</kbd> directory is a great way to delete a file without immediately losing it forever.</p>
+            <p>Use <kbd>chmod</kbd> to change read, write, and execute permission on a file.</p>
+        <h2>Permissions</h2>
+            <img src="images/permissions.png" alt="Diagram of file permissions.">
+            <p>Thanks Chris Aquino!</p>
+    </main>
+    <footer>
+        <p><a href="index.html">Home</a></p>
+    </footer>     
 </body>
 </html>

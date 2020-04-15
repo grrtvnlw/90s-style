@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/dc.png");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    color: purple;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    border: 5px dotted green;
+    background-color: rgba(245, 245, 245, .8);
+    width: 40%;
+    margin: 75px  auto;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+div {
+    width: 49%;
+    border: 5px dashed green;
+    background-color: rgba(245, 245, 245, .8);
+    text-align: center;
+}
+
+.git {
+    float: left;
+}
+
+.github {
+    float: right;
+}
+
+.gitcommands {
+    clear: both;
+    margin: 100px auto;
+}
+
+footer {
+    clear: both;
+}
+
+li {
+    list-style-image: url("../images/git.jpeg");
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+li span {
+    position: relative;
+    left: -90px;
+    bottom: 2px;
+}

@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/dc_alt.png");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    color: midnightblue;
+    text-align: center;
+}
+
+h1, h2, h4 {
+    background-color: white;
+    font-size: 60px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 65px auto;
+}
+
+h4 {
+    font-size: 40px;
+    margin: 95px auto;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/dc_black.png");
+    background-repeat: repeat;
+    font-family: sans-serif;
+    color: chartreuse;
+    text-align: center;
+}
+
+body * {
+    background-color: red;
+    width: 70%;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 10px 0;
+}
+
+ul {
+    width: 95%;
+    list-style: none;
+}
+
+li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 95%;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: 95%;
+}
+
+li::before {
+    content: "🌟";
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+img,
+img p {
+     padding: 0px;
+     margin: 0px;
+ }
