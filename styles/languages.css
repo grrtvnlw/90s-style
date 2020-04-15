@@ -1,0 +1,45 @@
+body {
+    background: #ccc;
+    color: navy;
+}
+
+header {
+    text-align: center;
+}
+
+.left {
+    width: 39%;
+    float: left;
+    /* border: 1px red solid; */
+}
+
+.right {
+    width: 60%;
+    float: right;
+    /* border: 1px red solid; */
+}
+
+main {
+    clear: both;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer > p {
+    font-size: 20px;
+}
