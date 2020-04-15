@@ -12,6 +12,15 @@ table {
     width: 85%;
     font-size: 40px;
 }
+
+footer {
+    background-color: rgba(127, 255, 0, 0.8);
+    margin: 40px auto;
+    width: 85%;
+    font-size: 20px;
+    padding: 10px;
+}
+
 th {
     padding: 20px;
     font-size: 60px;

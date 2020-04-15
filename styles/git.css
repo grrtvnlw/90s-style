@@ -22,7 +22,7 @@ h2 {
 div {
     width: 45%;
     border: 5px dashed green;
-    background-color: rgba(245, 245, 245, .8);
+    background-color: rgba(245, 245, 245, .9);
     text-align: left;
     margin: 30px;
 }
@@ -39,6 +39,7 @@ div {
     clear: both;
     margin: 0 auto;
     margin-bottom: 75px;
+    width: 65%;
 }
 
 footer {
@@ -49,4 +50,20 @@ li {
     list-style-image: url("../images/git.jpeg");
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+.red {
+    color: red;
+    font-size: 20px;
+}
+
+
+footer {
+    width: 45%;
+    border: 5px dashed green;
+    background-color: rgba(245, 245, 245, .9);
+    margin: 40px auto;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
 }

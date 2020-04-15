@@ -60,3 +60,7 @@ p {
 img {
     margin-left: 30px;
 }
+
+.dedent {
+    margin-left: -10px;
+}

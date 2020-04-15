@@ -30,32 +30,81 @@
                 <img src="images/ifelse.png" alt="Diagram of if, elif, else branching structure.">
                 <p><kbd>pass</kbd> is a keyword in Python that means nothing and can be used as a placeholder.</p>
             <h2>Looping</h2>
-                <p><b>While Loops: </b>Use <kbd>while</kbd> to create a loop that will repeat the same commands over and over.</p>
-                <img src="images/while.png" alt="Diagram of if, elif, else branching structure.">
-                <ul>
-                    <li>Great for counting up or down.</li>
-                    <li>Use a While Loop over a For Loop when working based off user input.</li>
-                    <li>Nest While Loops to change a variable in relation to another variable.</li>
-                    <li>MAKE SURE YOU USE AND INCREMENT A COUNTER VARIABLE IN THE WHILE LOOP TO AVOID AN INFINITE LOOP.</li>
-                </ul>
-                <p><b>For Loops: </b>Use <kbd>for</kbd> and <kbd>in</kbd> to create a loop that will iterate through a sequence of items.</p>
-                <img src="images/for.png" alt="Diagram of if, elif, else branching structure.">
-                <ul>
-                    <li>Use For Loops when you need to visit each item in a sequence.</li>
-                    <li>Nest For Loops to change a variable in relation to another variable.</li>
-                </ul>
+                <h3>While</h3>
+                    <p><b>While Loops: </b>Use <kbd>while</kbd> to create a loop that will repeat the same commands over and over.</p>
+                    <img src="images/while.png" alt="Diagram of if, elif, else branching structure.">
+                    <ul>
+                        <li>Great for counting up or down.</li>
+                        <li>Use a While Loop over a For Loop when working based off user input.</li>
+                        <li>Nest While Loops to change a variable in relation to another variable.</li>
+                        <li>MAKE SURE YOU USE AND INCREMENT A COUNTER VARIABLE IN THE WHILE LOOP TO AVOID AN INFINITE LOOP.</li>
+                    </ul>
+                <h3>For</h3>
+                    <p><b>For Loops: </b>Use <kbd>for</kbd> and <kbd>in</kbd> to create a loop that will iterate through a sequence of items.</p>
+                    <img src="images/for.png" alt="Diagram of if, elif, else branching structure.">
+                    <ul>
+                        <li>Use For Loops when you need to visit each item in a sequence.</li>
+                        <li>Nest For Loops to change a variable in relation to another variable.</li>
+                    </ul>
             <h2>Functions</h2>
-                <p><b>Functions</b> allow you to bundle code into a reusable and neat format.</p>
+                <p><b>Functions</b> are blocks of organized, repeatable code.</p>
                 <img src="images/func.png" alt="Diagram of if, elif, else branching structure.">
                 <ul>
                     <li>Functions are variables.</li>
                     <li>Functions can accept arguments or inputs as parameters.</li>
                     <li>Functions should <kbd>return</kbd> the result instead of <kbd>print</kbd> the result.</li>
+                    <li>A function call is replaced by its <kbd>return</kbd> value.</li>
+                    <li>A function can only <kbd>return</kbd> one value and execution stops as soon as the return occurs.</li>
                 </ul>
             <h2>Sequences</h2>
-                <p>Lists/Arrays</p>
-                <p>Dictionaries/Objects</p>
+                <h3>Lists/Arrays</h3>
+                <ul>
+                    <li><b>Lists</b> in Python, <b>Arrays</b> in JavaScript instantiated with <kbd>[]</kbd>.</li>
+                    <li>A generic, <b>ordered</b> sequence of values.</li>
+                    <li>Lists/Arrays an hold any value of any data type.</li>
+                    <li>Lists/Arrays are mutable and dynamic.</li>
+                    <li>You can access a specific element in a list/array by using the elements index value.</li>
+                    <li>Lists/Arrays can be concatenated.</li>
+                    <li>When you assign a list variable to another variable, both variables point to the same list.</li>
+                </ul>
+                <h3>Dictionaries/Objects</h3>
+                <ul>
+                    <li><b>Dictionaries</b> in Python, <b>Objects</b> in JavaScript instantiated with <kbd>{}</kbd>.</li>
+                    <li>An <b>unordered</b> collection of terms (<kbd>keys</kbd>) and definitions (<kbd>values</kbd>).</li>
+                    <li>Dictionaries/Objects can hold any value of any data type.</li>
+                    <li>Utilize <kbd>key : value</kbd> pairs to map data (keys to values).</li>
+                    <li><kbd>keys</kbd> and <kbd>values</kbd> are seperated by <kbd>:</kbd> and pairs are separated by <kbd>,</kbd>.</li>
+                </ul>
             <h2>Object-Oriented Programming</h2>
+                <h3>Classes</h3>
+                <ul>
+                    <li><b>Classes</b> allow you to bundle data and functions together.</li>
+                    <img src="images/class.png" alt="Syntax for defining Classes in Python.">
+                    <li>"Blueprints" for bundling data and functions together.</li>
+                    <li>Classes should be defined using a capital letter for the first letter.</li>
+                </ul>
+                <h3>Constructors</h3>
+                <ul>
+                    <li><b>Constructors</b> define how Classes will be built.</li>
+                    <img src="images/const.png" alt="Syntax for defining Classes in Python.">
+                    <li>Constructors run behind the scenes when an Instance of a Class is instantiated.</li>
+                    <li>Constructors allow you to customize Instances of Classes.</li>
+                    <li>Constructors can accept arguments.</li>
+                </ul>
+                <h3>Instances</h3>
+                <ul>
+                    <li><b>Instances</b> inherit attributes and methods from their parent Classes.</li>
+                    <img src="images/inst.png" alt="Syntax for defining Classes in Python.">
+                    <li>Instances are stored in variables.</li>
+                    <li>Instances can be customized.</li>
+                </ul>
+                <h3>Encapsulation</h3>
+                <ul>
+                    <li>State ➡️ Attributes</li>
+                    <li>Behavior ➡️ Methods</li>
+                </ul>
+            <h2>Functional Programming</h2>
+                <p>What happens inside the function stays inside the function and doesn't affect the rest of the program.</p>
         </main>
         <footer>
             <p><a href="index.html">Home</a></p>

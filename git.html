@@ -21,6 +21,7 @@
                     <li>A sequence of commits is called a branch.</li>
                     <li>Files are committed from your working tree (your hard drive) to the master branch.</li>
                 </ol>
+                <li>Cloning a repo gives you full functionality of the repo as if it were your own.</li>
             </ul>
         </div>
         <div class="github">
@@ -28,24 +29,32 @@
             <ul>
                 <li>GitHub is a backup for your commits.</li>
                 <li>GitHub is a useful tool for collaborating with other developers.</li>
-                <li>Cloning a git repo gives you the full functionality of the repo as if it were your own.</li>
                 <li>Forking a git repo gives you a personal copy of the repo that you can contribute to.</li>
+                <li>Merging and conflict resolution will be handled on GitHub.</li>
+                <li>Pull Requests: asking a collaborator to review AND merge your code.</li>
+                <li class="red">🚨🚨🚨 NEVER MERGE YOUR OWN PULL REQUESTS 🚨🚨🚨.</li>
             </ul>
         </div>
         <div class="gitcommands">
             <h2>Git Commands</h2>
             <ul>
                 <li><kbd>git add</kbd> adds working tree to index (staging area).</li>
-                <li><kbd>git commit</kbd> adds index to branch.</li>
+                <li><kbd>git commit</kbd> adds index to branch. Use <kbd>-am</kbd> argument to <kbd>add</kbd> and <kbd>commit</kbd> simultaneously.</li>
                 <li><kbd>git push</kbd> adds local branch to master.</li>
                 <li><kbd>git log</kbd> shows a record of all commits.</li>
                 <li><kbd>git log --oneline</kbd> is a more succinct verson of <kbd>git log</kbd>.</li>
                 <li><kbd>git init</kbd> creates a repo in your current directory.</li>
                 <li><kbd>git clone</kbd> copies a specified repo into your current directory.</li>
                 <li><kbd>git status</kbd> shows current status of everything in your repo.</li>
+                <li><kbd>git branch</kbd> shows you what branch you are currently working from. Use <kbd>-d</kbd> argument to delete branch.</li>
+                <li><kbd>git checkout</kbd> allows you to switch branches.</li>
+                <li><kbd>git diff</kbd> shows what was added to/deleted from the specific file.</li>
+            </ul>
             </ul>
         </div>
     </main>
-    
+    <footer>
+        <p><a href="index.html">Home</a></p>
+    </footer>
 </body>
 </html>
