@@ -24,9 +24,11 @@
             <li><kbd>input()</kbd> prompts the user for input and stores their input in a variable as a string value.</li>
             <li><kbd>ord()</kbd> will give you the ordinal (ASCII) value of any character value you pass in to it.</li>
             <li><kbd>chr()</kbd> will give you the character value of any ordinal value you pass in to it.</li>
+            <li><kbd>range()</kbd> accepts a number as its argument and returns a non-inclusive sequence of numbers to loop over.</li>
             <li><kbd>.lower()</kbd> is a string method that does not mutate the original string; it returns a lowercase copy of the original string.</li>
             <li><kbd>.upper()</kbd> is a string method that does not mutate the original string; it returns an uppercase copy of the original string.</li>
-            <li>Name <kbd>Boolean</kbd> variables by starting with a <kbd>is_</kbd> for instance <kbd>is_odd</kbd>.</li>
+            <li>Python supports negative indexing :D [-1] will return the last character in a string.</li>
+
         </ul>
         <h4>Declaring <kbd>f-strings</kbd></h4>
             <img src="images/fstring.png" alt="Proper format for declaring f-strings">
@@ -44,7 +46,12 @@
                 <li>All other values are "Truthy".</li>
             </ul>
         <h4>Python Errors</h4>
-            <p><kbd>traceback</kbd> is usually an issue with variable labels.</p>
+            <p>Use <kbd>try</kbd> and <kbd>except</kbd> keywords to handle errors in Python and ensure good user input.</p>
+            <p>If code can cause an error, put it in a <kbd>try</kbd> body.  Use <kbd>except</kbd> to handle specific errors.</p>
+                <img src="images/try.png" alt="Try and Except syntax">
+            <p><kbd>Traceback</kbd> lets you know you've got an error somewhere in your code.</p>
+            <p><kbd>NameError</kbd> is an error that is the result of an issue with variable labels.</p>
+            <p><kbd>TypeError</kbd> is an error that is the result of an issue with variable values.</p>
         <h4>Links</h4>
             <p>⛓ <a href="http://pythontutor.com" target="_blank">PYTHONTUTOR.COM</a> IS AWESOME!</p>
             <p>⛓ <a href="https://www.python.org/" target="_blank">Offical Python Docs</a></p>

@@ -16,13 +16,15 @@ h1 {
 
 h2 {
     font-size: 50px;
+    margin: 10px 50px;
 }
 
 div {
-    width: 49%;
+    width: 45%;
     border: 5px dashed green;
     background-color: rgba(245, 245, 245, .8);
     text-align: left;
+    margin: 30px;
 }
 
 .git {
@@ -36,6 +38,7 @@ div {
 .gitcommands {
     clear: both;
     margin: 0 auto;
+    margin-bottom: 75px;
 }
 
 footer {
