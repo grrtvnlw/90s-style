@@ -1,9 +1,17 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 body {
     background-image: url("../images/dc_white.png");
     background-repeat: repeat;
     font-family: sans-serif;
     color: magenta;
-    text-align: center;
+    box-sizing: inherit;
 }
 
 h1 {
@@ -31,12 +39,12 @@ div {
 }
 
 .left {
-    width: 21%;
+    min-width: 28%;
     float: left;
 }
 
 .right {
-    width: 78%;
+    width: 70%;
     float: right;
 }
 
@@ -69,4 +77,80 @@ li {
 
 li:nth-child(1) {
     font-size: 40px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+
+    .left {
+        min-width: 40%;
+        max-width: 100%;
+        float: none;
+        /* border: 1px solid red; */
+    }
+
+    ul {
+        text-decoration: none;
+        list-style: none;
+        margin: 20px 0px;
+        padding: 10px;
+        border: 1px solid red;
+    }
+    
+    .right {
+        min-width: 40%;
+        max-width: 100%;
+        float: none;
+        border: 1px solid red;
+    }
+
+    p > span {
+        display: none;
+    }
+
+    h1 {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+
+    .left {
+        /* min-width: 60%; */
+        max-width: 60%;
+        float: none;
+        /* border: 1px solid red; */
+    }
+
+    ul {
+        text-decoration: none;
+        list-style: none;
+        margin: 40px 0px;
+        padding: 10px;
+    }
+    
+    .right {
+        /* min-width: 50%; */
+        max-width: 60%;
+        float: none;
+    }
+
+    h1 {
+        margin: 0 auto;
+    }
+
+    p > span {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .left {
+        min-width: 28%;
+        max-width: 28%;
+        float: left;
+    }
+    
+    .right {
+        max-width: 70%;
+        float: right;
+    }
 }
