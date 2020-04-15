@@ -23,6 +23,7 @@ main {
     clear: both;
     padding-top: 50px;
 }
+
 h1 {
     font-size: 55px;
 }
@@ -45,6 +46,12 @@ footer > p {
     font-size: 20px;
 }
 
-p, li {
+p,
+li {
     font-size: 20px;
+}
+
+ul,
+p {
+    margin-top: 0px;
 }

@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/dc_black.png");
     background-repeat: repeat;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: chartreuse;
     text-align: center;
 }
@@ -20,12 +20,13 @@ h1 {
 ul {
     width: 95%;
     list-style: none;
+    margin-top: 5px;
 }
 
 li {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 18px;
+    font-size: 22px;
     width: 95%;
 }
 
@@ -42,6 +43,8 @@ li::before {
 
 h2 {
     padding-top: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 img,

@@ -22,7 +22,7 @@ div {
     width: 49%;
     border: 5px dashed green;
     background-color: rgba(245, 245, 245, .8);
-    text-align: center;
+    text-align: left;
 }
 
 .git {
@@ -35,7 +35,7 @@ div {
 
 .gitcommands {
     clear: both;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 footer {
@@ -46,10 +46,4 @@ li {
     list-style-image: url("../images/git.jpeg");
     padding-bottom: 10px;
     font-size: 20px;
-}
-
-li span {
-    position: relative;
-    left: -90px;
-    bottom: 2px;
 }
