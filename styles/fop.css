@@ -4,14 +4,14 @@ body {
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
-    box-sizing: inherit;
 }
 
 body {
     background-image: url("../images/dc_green.png");
     background-repeat: repeat;
     font-family: sans-serif;
-    color: rgba(0, 206, 209, 1.0)
+    color: rgba(0, 206, 209, 1.0);
+    box-sizing: inherit;
 }
 
 .container {
