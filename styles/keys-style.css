@@ -1,24 +1,33 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 body {
     background-image: url("../images/dc_black.png");
     background-repeat: repeat;
     font-family: sans-serif;
     color: midnightblue;
-    text-align: center;
+    box-sizing: inherit;
 }
 
 table {
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: rgba(127, 255, 0, 0.8);
     width: 85%;
     font-size: 40px;
+    /* border-collapse: collapse; */
 }
 
 footer {
     background-color: rgba(127, 255, 0, 0.8);
     margin: 40px auto;
-    width: 85%;
+    width: 15%;
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
 }
 
 th {
@@ -28,4 +37,29 @@ th {
 
 td {
     border: 1px solid midnightblue;
+}
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+
+    table,
+    thead, 
+    tbody,
+    th,
+    td, 
+    tr {
+        display: block;
+    }
+    
+    table {
+        font-size: 30px;
+    }  
+
+    th {
+        padding: 20px;
+        font-size: 45px;
+    }
+
+    footer {
+        width: 25%;
+    }
 }
