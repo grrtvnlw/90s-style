@@ -74,7 +74,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 100px) and (max-width: 1400px) {
+@media screen and (min-width: 100px) and (max-width: 750px) {
     body {
         margin: 0 auto;
     }
