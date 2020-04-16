@@ -1,6 +1,14 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background: #ccc;
     color: navy;
+    box-sizing: inherit;
 }
 
 header {
@@ -10,13 +18,11 @@ header {
 .left {
     width: 39%;
     float: left;
-    /* border: 1px red solid; */
 }
 
 .right {
     width: 60%;
     float: right;
-    /* border: 1px red solid; */
 }
 
 main {
@@ -63,4 +69,63 @@ img {
 
 .dedent {
     margin-left: -10px;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 1300px) {
+    body * {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+
+    .left {
+        margin: 20px auto;
+        max-width: 90%;
+        float: none;
+        display: block;
+    }
+
+    ul {
+        margin: 0 auto;
+        text-decoration: none;
+        list-style-type: none;
+        list-style: none;
+        padding: 10px;
+    }
+    
+    ol {
+        margin-bottom: 20px;
+    }
+
+    ol > li {
+        padding: 0px;
+        margin: 20px auto;
+        list-style-type: none;
+        text-decoration: none;
+        margin-left: -30px;
+    }
+
+    .right {
+        margin: 0 auto;
+        max-width: 95%;
+        float: none;
+        display: block;
+    }
+
+    img {
+        margin-left: -30px;
+        margin: 0 auto;
+        max-width: 85%;
+    }
+
+    li {
+        margin-top: 5px;
+    }
 }

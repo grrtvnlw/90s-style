@@ -1,9 +1,18 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 body {
     background-image: url("../images/dc_alt.png");
     background-repeat: repeat;
     font-family: sans-serif;
     color: midnightblue;
     text-align: center;
+    box-sizing: inherit;
 }
 
 h1, 
@@ -53,17 +62,19 @@ footer {
 
     h2 {
         margin-top: 20px;
-        max-width: 85%;
-        font-size: 45px;
+        max-width: 75%;
+        font-size: 40px;
     }
 
-    h1,
+    h1 {
+        max-width: 65%;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
     h4 {
         max-width: 95%;
         margin-top: 20px;
-    }
-
-    h4 {
         margin-bottom: 10px;
         font-size: 30px;
     }
