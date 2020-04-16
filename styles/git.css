@@ -1,8 +1,17 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 body {
     background-image: url("../images/dc.png");
     background-repeat: repeat;
     font-family: sans-serif;
     color: purple;
+    box-sizing: inherit;
 }
 
 h1 {
@@ -10,8 +19,8 @@ h1 {
     text-align: center;
     border: 5px dotted green;
     background-color: rgba(245, 245, 245, .8);
-    width: 40%;
-    margin: 75px  auto;
+    max-width: 40%;
+    margin: 75px auto;
 }
 
 h2 {
@@ -20,7 +29,7 @@ h2 {
 }
 
 div {
-    width: 45%;
+    max-width: 45%;
     border: 5px dashed green;
     background-color: rgba(245, 245, 245, .9);
     text-align: left;
@@ -39,16 +48,13 @@ div {
     clear: both;
     margin: 0 auto;
     margin-bottom: 75px;
-    width: 65%;
-}
-
-footer {
-    clear: both;
+    max-width: 65%;
 }
 
 li {
     list-style-image: url("../images/git.jpeg");
     padding-bottom: 10px;
+    margin-left: -10px;
     font-size: 20px;
 }
 
@@ -57,13 +63,93 @@ li {
     font-size: 20px;
 }
 
-
 footer {
-    width: 45%;
+    clear: both;
+    max-width: 20%;
     border: 5px dashed green;
     background-color: rgba(245, 245, 245, .9);
     margin: 40px auto;
     font-size: 20px;
     padding: 10px;
     text-align: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px) {
+    body {
+        margin: 0 auto;
+    }
+    
+    .git {
+        float: none;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    .github {
+        float: none;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    .gitcommands {
+        float: none;
+        display: block;
+        margin-bottom: 75px;
+        max-width: 90%;
+    }
+
+    div {
+        max-width: 90%;
+        padding: 7px;
+    }
+
+    h1 {
+        max-width: 90%;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1400px) {
+    body {
+        margin: 0 auto;
+    }
+    
+    .git {
+        float: none;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    .github {
+        float: none;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    .gitcommands {
+        float: none;
+        display: block;
+        /* margin: 0 auto; */
+        margin-bottom: 75px;
+        max-width: 85%;
+    }
+
+    div {
+        max-width: 85%;
+    }
+
+    h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    h1 {
+        max-width: 45%;
+        font-size: 50px;
+    }
 }
