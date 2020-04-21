@@ -17,9 +17,20 @@
         </div>
     </header>
     <main>
-        <h4>Python Tools, Functions, and Methods</h4>
+        <h4>Notes About Python</h4>
         <ul>
             <li>Comments start with <kbd>#</kbd>.</li>
+            <li>Python supports negative indexing. [-1] will return the last character in a string.</li>
+            <li>The <kbd>in</kbd> keyword is an operator that tests for membership.</li>
+            <li><kbd>ints, floats, strings, tuples</kbd> are <b>immutable</b>.</li>
+            <li><kbd>lists</kbd> are <b>mutable</b> and <b>dynamic</b>.</li>
+            <li>String methods return a new string object.</li>
+            <li>List methods modify the target list in place.</li>
+            <li>A "singleton list" is a list with only one item in it.</li>
+        </ul>
+
+        <h4>Python Tools, Functions, and Methods</h4>
+        <ul>
             <li><kbd>type()</kbd> will tell you the data type of any value you pass in to it.</li>
             <li><kbd>input()</kbd> prompts the user for input and stores their input in a variable as a string value.</li>
             <li><kbd>ord()</kbd> will give you the ordinal (ASCII) value of any character value you pass in to it.</li>
@@ -29,11 +40,26 @@
             <li><kbd>.upper()</kbd> is a string method that does not mutate the original string; it returns an uppercase copy of the original string.</li>
             <li><kbd>.append()</kbd> is a list method that mutates the list it is called on by adding a single item to the end of the list.</li>
             <li><kbd>.extend()</kbd> is a list method that mutates the list it is called on by concatenating the arguments passed in to it to the list.</li>
-            <li>Python supports negative indexing. [-1] will return the last character in a string.</li>
-            <li><kbd>in</kbd> keyword is an operator that tests for membership.</li>
+            <li><kbd>slice()</kbd> is a funciton that returns values at the specified index(es). <kbd>slice()</kbd> takes 3 agruments: start position, end position, and increment (step) value.</li>
+            <li><kbd>.pop()</kbd> is a list method that mutates the list it is called on and <kbd>returns</kbd> the item at the end of the list.</li>
+            <li>If you want to remove an item from a list, but don't want the <kbd>return</kbd> value of that item, use the <kbd>del</kbd> keyword: <code>del list[index]</code></li>
+            <li><kbd>min()</kbd> is a function that returns the smallest of input values. Input value can be a string, list, tuple, etc.</li>
+            <li><kbd>max()</kbd> is a function that returns the largest of input values. Input value can be a string, list, tuple, etc.</li>
+            <li><kbd>.clear()</kbd> is a list method that removes all items from the list it is called on.</li>
+            <li><kbd>.sort()</kbd> is a list method that sorts all items in ascending order in the list it is called on.</li>
+            <li><kbd>.reverse()</kbd> is a list method that reverses the order of all items in the list it is called on.</li>
+            <li><kbd>.copy()</kbd> is a list method that returns a shallow copy of the list it is called on.</li>
+            <li><kbd>[:]</kbd> safely copies a list/string.</li>
         </ul>
         <h4>Declaring <kbd>f-strings</kbd></h4>
             <img src="images/fstring.png" alt="Proper format for declaring f-strings">
+        <h4>Tuples and Lists</h4>
+            <p>Use Tuples instead of Lists when:</p>
+            <ul>
+                <li>Data shouldn't be modified.</li>
+                <li>A Python Dictionary requires keys that are of an immutable type.</li>
+                <li>FYI: Program execution is faster when manipulating Tuples versus Lists.</li>
+            </ul>
         <h4>Python REPL</h4>
             <p>Stands for Read, Evaluate, Print, Loop.  REPLs exist for many languages.</p>
             <p>Prompts and runs code over and over.</p>
