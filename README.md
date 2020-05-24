@@ -1,5 +1,5 @@
 # 90's style
-![Image description](images/90-style.png)
+![Image description](images/90s-style.png)
 ## Contents
 - What It Is
 - What I Used
