@@ -1,4 +1,4 @@
-# 90's style
+# Class Notes, 90's style
 ![Image description](images/90s-style.png)
 ## Contents
 - What It Is
