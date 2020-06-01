@@ -9,7 +9,7 @@
 - [Screenshots](#Screenshots)
 - [Code Examples](#Code-Examples)
 ## What It Is
-The purpose of this assignment was to create a website built on popular design fundamentals...from the 90's. We used the [Space Jam](https://www.spacejam.com/) website as our template and attempted to build a site that included the [following](https://creativemarket.com/blog/90s-web-designs):
+The purpose of this assignment was to create a website built on popular design fundamentals...from the 1990's. We used the [Space Jam](https://www.spacejam.com/) website as our template and attempted to build a site that included the [following](https://creativemarket.com/blog/90s-web-designs):
 - Repeating Patterned Backgrounds
 - Animated and Patterned Navigation
 - Too Much Text
@@ -27,6 +27,7 @@ For my website, I chose to use my class notes as the content.
 - CSS
 ## Challenges and Solutions
 ## Minimum Viable Product
+The minimum viable product for this assignment was to build a single-page static website using web design principles from the 1990's. I chose to experiment with hyperlinks by building a separate page for each section of my notes.
 ## Stretch Goals
 ## Screenshots
 ## Code Examples
